@@ -1,0 +1,22 @@
+Starting simulation process...
+Closing Poker Environment.
+Dynamically obtained Action List: ['fold', 'call', 'check', 'bet_small', 'bet_big', 'all_in']
+Using device: cpu
+Loading checkpoint from checkpoints/checkpoint_31200.pt
+Successfully loaded model from checkpoints/checkpoint_31200.pt onto cpu.
+Seat configuration: {0: 'agent', 1: 'random', 2: 'random', 3: 'random', 4: 'random', 5: 'random'}
+Set Seat 2 policy to: random
+Set Seat 3 policy to: random
+Set Seat 4 policy to: random
+Set Seat 5 policy to: random
+Set Seat 6 policy to: random
+Overwriting detailed log file: detailed_simulation_log.csv
+
+--- Starting Simulation (500 tournaments) ---
+
+--- Simulation Complete ---
+Average Tournament Reward: 920.00
+Summary results appended to: simulation_results.csv
+Detailed logs written to: detailed_simulation_log.csv
+Closing Poker Environment.
+Simulation finished.

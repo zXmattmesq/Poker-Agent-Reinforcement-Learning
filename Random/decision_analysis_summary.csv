@@ -1,0 +1,203 @@
+Analysis for Agent ID: 1
+
+Action Summary (Preflop Decisions):
+Action,Count,Avg_Reward
+bet_small,1606,65.32565379825654
+fold,608,-590.422697368421
+all_in,517,361.65603481624754
+call,502,6.175298804780876
+bet_big,3,466.6666666666667
+check,2,0.0
+
+
+Starting Hand Distribution (Preflop):
+Hand_Class,Count
+Q8 Offsuit,51
+94 Offsuit,47
+92 Offsuit,47
+T4 Offsuit,46
+95 Offsuit,45
+J8 Offsuit,42
+84 Offsuit,41
+Q3 Offsuit,41
+42 Offsuit,40
+J3 Offsuit,38
+K8 Offsuit,38
+J6 Offsuit,37
+54 Offsuit,37
+K7 Offsuit,36
+J9 Offsuit,36
+K3 Offsuit,36
+Q7 Offsuit,36
+75 Offsuit,36
+Q4 Offsuit,36
+A4 Offsuit,36
+KQ Offsuit,35
+65 Offsuit,35
+J5 Offsuit,35
+J7 Offsuit,34
+74 Offsuit,34
+63 Offsuit,34
+73 Offsuit,34
+K5 Offsuit,34
+KT Offsuit,34
+76 Offsuit,34
+A7 Offsuit,34
+87 Offsuit,33
+98 Offsuit,33
+T9 Offsuit,32
+86 Offsuit,32
+82 Offsuit,32
+83 Offsuit,32
+43 Offsuit,31
+32 Offsuit,31
+53 Offsuit,31
+72 Offsuit,30
+K4 Offsuit,29
+KJ Offsuit,28
+T7 Offsuit,27
+J4 Offsuit,27
+T6 Offsuit,27
+JT Offsuit,27
+T8 Offsuit,27
+A5 Offsuit,27
+QJ Offsuit,27
+T3 Offsuit,26
+K9 Offsuit,26
+Q5 Offsuit,26
+AQ Offsuit,25
+85 Offsuit,25
+A2 Offsuit,25
+J2 Offsuit,25
+62 Offsuit,25
+Q9 Offsuit,25
+A6 Offsuit,24
+T2 Offsuit,24
+93 Offsuit,24
+96 Offsuit,23
+AK Offsuit,23
+Q2 Offsuit,23
+AJ Offsuit,22
+A9 Offsuit,22
+AT Offsuit,22
+Pair 5,21
+Pair Q,21
+52 Offsuit,21
+KT Suited,21
+K2 Offsuit,21
+Pair 3,21
+Pair 2,18
+T5 Offsuit,18
+64 Offsuit,18
+97 Offsuit,17
+Pair J,17
+AQ Suited,17
+Q4 Suited,17
+Pair 4,17
+Q7 Suited,17
+A8 Offsuit,17
+A3 Offsuit,16
+J4 Suited,16
+Q6 Suited,16
+Pair 9,15
+87 Suited,15
+KJ Suited,15
+Pair A,15
+K6 Offsuit,14
+84 Suited,14
+95 Suited,14
+T6 Suited,14
+A5 Suited,14
+54 Suited,14
+AK Suited,13
+T2 Suited,13
+T8 Suited,13
+76 Suited,13
+QJ Suited,13
+Q6 Offsuit,13
+62 Suited,12
+96 Suited,12
+QT Offsuit,12
+K7 Suited,11
+63 Suited,11
+Q8 Suited,11
+A3 Suited,11
+K8 Suited,11
+52 Suited,11
+K4 Suited,10
+A9 Suited,10
+93 Suited,10
+65 Suited,10
+64 Suited,10
+97 Suited,10
+K2 Suited,10
+Pair K,10
+K5 Suited,10
+K3 Suited,9
+Pair 7,9
+83 Suited,9
+73 Suited,9
+Pair 8,9
+A4 Suited,9
+KQ Suited,8
+Pair T,8
+A6 Suited,8
+Pair 6,8
+T5 Suited,8
+Q2 Suited,8
+43 Suited,8
+K9 Suited,7
+JT Suited,7
+32 Suited,7
+A2 Suited,7
+QT Suited,7
+92 Suited,7
+AT Suited,7
+J3 Suited,7
+85 Suited,7
+72 Suited,6
+J2 Suited,6
+T7 Suited,6
+86 Suited,6
+53 Suited,6
+J5 Suited,6
+82 Suited,6
+T9 Suited,6
+T3 Suited,6
+J8 Suited,6
+Q5 Suited,6
+Q3 Suited,5
+74 Suited,5
+AJ Suited,5
+Q9 Suited,5
+94 Suited,5
+J6 Suited,5
+K6 Suited,5
+J7 Suited,4
+75 Suited,4
+98 Suited,4
+T4 Suited,4
+A8 Suited,3
+J9 Suited,3
+A7 Suited,2
+42 Suited,2
+
+
+Mean Hand Strength by Action Type:
+Action_Type,Mean_Hand_Strength
+Aggressive,19.5310442144873
+Passive,19.090827338129497
+
+
+Correlation between Hand Strength and Reward:
+0.06
+
+
+Comparison to Best Poker Practices:
+ - Mean Hand Strength when playing Aggressively: 19.53
+ - Mean Hand Strength when playing Passively: 19.09
+   (As expected, aggressive actions used with stronger hands.)
+ - Correlation between Hand Strength and Reward: 0.06
+   (Weak correlation suggests decisions may not strongly align with hand strength.)
+
+Standard preflop guidelines advise aggression with premium holdings. Use results for tuning.
